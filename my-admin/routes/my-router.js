@@ -2,15 +2,15 @@
  * @Author: Yanzhao.Zhang
  * @Date: 2019-10-29 13:36:09
  * @LastEditors: Yanzhao.Zhang
- * @LastEditTime: 2019-11-21 16:55:45
- * @Description: 
+ * @LastEditTime: 2019-11-21 19:06:16
+ * @Description: 数据库查询接口
  */
 const express = require('express')
 const router = express.Router()
 const { select } = require('../models/request')
 const filterParam = require('../models/params-format')
 
-// 错误类型饼图
+// 传递数据库数据
 router.post('/test', (req, res) => {
   // 注意，此处是对前端返回数据的格式化和解析
   let params = {}

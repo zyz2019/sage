@@ -2,8 +2,8 @@
  * @Author: Yanzhao.Zhang
  * @Date: 2019-11-21 14:16:46
  * @LastEditors: Yanzhao.Zhang
- * @LastEditTime: 2019-11-21 16:46:51
- * @Description: 
+ * @LastEditTime: 2019-11-21 19:05:57
+ * @Description: mock数据接口
  */
 
 const express = require('express')
@@ -11,7 +11,7 @@ const router = express.Router()
 const Mock = require('mockjs')
 const _ = require('lodash')
 
-// 错误类型饼图
+// 传递mock数据
 router.post('/mock', (req, res) => {
   res.json(Mock.mock({
         people:_.times(2,function(n){
