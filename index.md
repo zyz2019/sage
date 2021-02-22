@@ -38,7 +38,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 目录
 CSS
-[CSS注意事项小结](https://github.com/zyz2019/sage/edit/gh-pages/css.md)
+[CSS注意事项小结](https://zyz2019.github.io/zyz/)
 JavaScript
 JavaScript编码风格指南
 Event Loop 2019-08-23
